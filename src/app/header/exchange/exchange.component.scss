@@ -1,0 +1,58 @@
+
+
+//base
+
+.container-fluid {
+
+  color: #fff;
+  background-color: #212a33;
+  margin: 0;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+  padding: 1.9rem;
+
+  h6 {
+    padding-bottom: 30px;
+  }
+
+  .exchange {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+
+    div {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    .uk_flag {
+      display: inline-block;
+      background-image: url(../../../assets/images/union-jack-1027898_640.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 50px;
+      width: 50px;
+
+    }
+
+    .equal {
+      padding-left: 0;
+    }
+
+    .poland_flag {
+      background-image: url(../../../assets/images/poland-31517_640.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 50px;
+      width: 50px;
+      display: inline-block;
+    }
+  }
+}
+
+

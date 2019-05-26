@@ -1,0 +1,21 @@
+@import '../../../styles.scss';
+
+// base
+
+.container-fluid {
+  text-align: center;
+
+  h3 {
+
+    margin-top: 30px;
+
+    span {
+      color: $yello-wu;
+    }
+  }
+
+  p {
+    margin-left: 23px;
+    margin-bottom: 30px;
+  }
+}

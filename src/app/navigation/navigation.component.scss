@@ -1,0 +1,11 @@
+//base
+
+nav {
+  a {
+    color: #FFDE38;
+    transition: all 0.3s;
+    &:hover {
+      transition: all .3s;
+    }
+  }
+}

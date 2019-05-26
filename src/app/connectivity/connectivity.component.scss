@@ -1,0 +1,103 @@
+@import '../../styles.scss';
+
+//base
+.container-fluid {
+
+  hr {
+    display: none;
+  }
+
+  .row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .ct-left {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .connection-text {
+        margin-left: 8%;
+
+
+        h3 {
+          font-weight: 500;
+          font-size: 2rem;
+          margin-bottom: 30px;
+
+          span {
+            padding-right: 13px;
+            color: $yello-wu;
+          }
+        }
+
+        p {
+          padding-left: 50px;
+          font-weight: 400;
+          margin-bottom: 0.6rem;
+        }
+
+        .btn {
+          @extend .btn ;
+          margin: 18px 0.25rem 18px 50px;
+
+        }
+      }
+    }
+
+    .ct-right {
+      text-align: center;
+
+
+      img {
+        max-height: 500px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .container-fluid {
+    .row {
+      .ct-left {
+        margin: 20px auto 80px;
+
+        .connection-text {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-fluid{
+    hr {
+      display: block;
+    }
+    .row {
+      margin-top: 70px;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container-fluid {
+    .row {
+      .ct-left {
+        margin: 20px auto 80px;
+
+        .connection-text {
+          margin: 0;
+          padding-right: 50px;
+
+          h3 {
+            margin-left: 50px;
+          }
+        }
+      }
+    }
+  }
+}

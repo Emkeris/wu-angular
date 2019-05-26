@@ -1,0 +1,66 @@
+@import '../../styles.scss';
+
+//base
+.container-fluid {
+  padding: 50px 20px;
+
+  .row {
+
+    .so-r {
+      margin-top: 30px;
+      padding-left: 100px;
+
+      h3 {
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 30px;
+
+        span {
+          padding-right: 13px;
+          color: $yello-wu;
+        }
+      }
+
+      p {
+        padding-left: 40px;
+        font-weight: 400;
+        margin-bottom: 0.6rem;
+
+
+      }
+
+      .btn {
+        @extend .btn;
+        margin: 18px 0.25rem 18px 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container-fluid {
+    .row {
+      .so-r {
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .container-fluid {
+    .row {
+      .so-r {
+        margin: 70px 70px 70px 0px;
+        text-align: center;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 677px) {
+  .container-fluid {
+    display: none;
+  }
+}
